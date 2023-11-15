@@ -21,7 +21,7 @@ class Carro2(var cor: String, var ano: Int, var modelo: String){
 }
 
 fun main() {
-    val  uno = Carro3("Vermelho", 2022, "MM22")
+    val  uno = Carro2("Vermelho", 2022, "MM22")
 
     println("Uno: Cor ${uno.cor}, Ano ${uno.ano}, Modelo ${uno.modelo}")
     uno.acelerar()
@@ -29,7 +29,7 @@ fun main() {
     println("Meu uno é de cor  "+uno.cor +" ano "+ uno.ano +" modelo "+ uno.modelo)
     println("")
 
-    val mercedes = Carro3("Branca", 2022, "M500")
+    val mercedes = Carro2("Branca", 2022, "M500")
     println("Minha mercedes e de cor: ${mercedes.cor}, ano: ${mercedes.ano}, modelo: ${mercedes.modelo}")
     mercedes.acelerar()
 }

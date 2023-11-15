@@ -1,7 +1,9 @@
 package classes
 
-open class Veiculo(open var cor: String, open var ano: Int, open var modelo: String) {
-
+open class Veiculo(
+    open var cor: String,
+    open var ano: Int,
+    open var modelo: String) {
 
     fun acelerar() {
         println("Acelerando o $modelo")

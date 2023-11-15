@@ -20,10 +20,7 @@ class Carro3(
     fun abrirPorta(){
         println("Fechando a porta do uno $modelo")
     }
-
 }
-
-
 
     class Caminhao(
         override var cor: String,
